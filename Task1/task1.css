@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    border-radius: 0.3em;
+    text-align: center;
+}
+tbody > tr > td:first-child{
+    text-align: left;
+}
+th{
+    color: white;
+    padding: 3px 25px 3px 25px;
+}
+th:first-child{
+    background-color: rgb(91, 144, 192);
+}
+th:first-child + th{
+    background-color: rgb(54, 117, 172);
+}
+th:first-child + th + th{
+    background-color: rgb(35, 113, 181);
+}
+th:first-child + th + th + th{
+    background-color: rgb(13, 78, 136);
+}
+th:last-child{
+    background-color: rgb(5, 45, 82);
+}
+tbody td:nth-child(even){
+    background-color: rgba(190, 190, 190, 0.5);
+}
+tbody tr:nth-child(even){
+    background-color: rgba(190, 190, 190, 0.5);
+}
+button{
+    
+}

@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+.maintab{
+    width: 10em;
+    height: 2em;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+.maintab:hover{
+    background-color: darkgreen;
+}
+.column1{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    top: 2.5em;
+    left: 10.5em;
+}
+.column2{
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    top: 2em;
+    left: 10em;
+}
+#Categories:hover{
+    .column1{
+        display: flex;
+    }
+    #woman:hover{
+        .column2{
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+header{
+    height: 50px;
+    width: 100%;
+    background-color: firebrick;
+}
+main{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 3em;
+    }
+    
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    margin-right: 2em;
+}
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3; 
+    margin-left: 5em;
+    background-color: rgb(238, 238, 238);
+    padding: 3em;
+}
+.child{
+    margin-left: 5em;
+}
+#bold{
+    font-weight: bold;
+}
+.author{
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+}
+#headerblock:hover{
+    background-color: rgb(103, 27, 27);
+}
+#headerblock{
+    height: 3em;
+    margin-top: 0px;
+}
+.hight{
+    height: 2.1em!important
+}
+
